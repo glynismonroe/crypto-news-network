@@ -33,4 +33,8 @@ class HomeController < ApplicationController
       
     end
   end
+  
+  def
+    trends
+  end
 end

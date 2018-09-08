@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   root 'home#index'
   get 'home/prices'
+  get 'home/trends'
   post "/home/prices" => "home/prices"
+  post "/home/trends" => "home/trends"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
